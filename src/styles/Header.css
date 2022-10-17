@@ -1,0 +1,39 @@
+.flexHead {
+  align-items:center;
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+}
+
+.caixaHead {
+  background-color: white;
+  border-radius: 50px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  width: 620px;
+}
+
+.gravatar {
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 30px;
+}
+
+.name {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 180px;
+  margin-top: 50px;
+  width: 300px;
+}
+
+.score {
+  font-size: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 60px;
+}
