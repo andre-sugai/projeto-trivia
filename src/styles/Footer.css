@@ -1,0 +1,66 @@
+.flexFooter {
+  background-color: rgb(16, 81, 23);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.flexFooterItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.flexFooterItems a:link {
+  text-decoration: none;
+  margin-bottom: 5px;
+  /* margin-top: -20px; */
+}
+
+.flexFooterItems a {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  /* margin: 0 -.25rem; */
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.flexFooterItems a:hover {
+  box-shadow: inset 200px 0 0 0 #54b3d6;
+  color: white;
+}
+
+.trybe {
+  position: absolute;
+  bottom: -10px;
+}
+
+.trybe img {
+  width: 100px;
+  padding-left: 30px;
+}
+
+.grupo {
+  position: absolute;
+  bottom: -15px;
+  left: 140px;
+}
+
+.fundoFooterTopo {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  height: 30px;
+  bottom: 70px;
+}
+
+
